@@ -13,6 +13,7 @@
         background: transparent;
         color: var(--gold);
         border: none;
+        cursor: pointer;
     }
 
     .nav-logo_container {
@@ -62,6 +63,21 @@
     .nav-list li:hover {
         background-color: var(--sub-gold);
         border-radius: 10px;
+    }
+
+    /* Header */
+    .header-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .header-title h1 {
+        font-size: 2rem;
+    }
+
+    .header-paragraph p {
+        font-style: 14px;
+        font-weight: 400;
     }
 }
 
