@@ -84,12 +84,14 @@ img {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    transition: transform 0.3s ease-in-out;
 }
 
 .nav-list li a{
     font-size: 18px;
     color: var(--black);
-    font-weight: 700;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
 }
 
 .nav-list li a:hover {

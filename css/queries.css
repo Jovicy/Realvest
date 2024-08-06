@@ -26,10 +26,16 @@
         width: 95%;
         margin: 10px 0px;
         padding: 7px;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
     }
 
     .show {
         display: flex;
+        opacity: 1;
+        transform: translateY(0);
+        animation: slideDown 0.3s ease-in-out;
     }
 
     .nav-list {
@@ -42,16 +48,32 @@
     .nav-list li {
         padding: 10px;
         width: 100%;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .nav-list li a {
+        transition: color 0.3s ease-in-out;
     }
 
     .nav-list li a:hover {
-        color: var(--black);
+        color: var(--white);
     }
 
     .nav-list li:hover {
         background-color: var(--sub-gold);
         border-radius: 10px;
     }
+}
 
+/* Animation */
+@keyframes slideDown {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
 
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
