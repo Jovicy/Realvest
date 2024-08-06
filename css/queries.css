@@ -1,6 +1,5 @@
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
-
     .nav-logo {
         width: 20%;
     }
@@ -8,24 +7,16 @@
     .nav-toggle {
         display: block;
         position: absolute;
-        top: 0.5rem;
-        right: 0.5rem;
-        background-color: transparent;
-        border: none;
         padding: 0.5rem;
-        cursor: pointer;
-    }
-
-    .nav-toggle span {
-        display: block;
-        width: 2rem;
-        height: 0.25rem;
-        background-color: var(--black);
-        margin-bottom: 0.25rem;
+        right: 2rem;
+        font-size: 2rem;
+        background: transparent;
+        color: var(--gold);
+        border: none;
     }
 
     .nav-logo_container {
-        /* justify-content: space-between; */
+        align-items: center;
         padding: 1rem 0rem;
     }
 
