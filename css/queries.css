@@ -41,8 +41,14 @@
         width: 100%;
     }
 
+    .nav-list li a:hover {
+        color: var(--black);
+    }
+
     .nav-list li:hover {
         background-color: var(--sub-gold);
         border-radius: 10px;
     }
+
+
 }
