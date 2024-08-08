@@ -111,6 +111,17 @@
     .about-content {
         width: 100%;
     }
+
+    /* Impact Section */
+    .impact-content_container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .impact-content {
+        width: 100%;
+    }
+
 }
 
 /* Animation */

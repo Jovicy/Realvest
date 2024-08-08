@@ -5,6 +5,7 @@
     /* Main Colors */
     --black: #000;
     --white: #fff;
+    --secondary-white: #f1f1f1;
     --gold: #eeb92b;
     --sub-gold: #c79c65;
     --footer-background: #25281f;
@@ -195,7 +196,69 @@ header {
     gap: 1rem;
 }
 
-.about-paragraph p{
+.about-paragraph p {
     line-height: 28px;
     text-align: justify;
+}
+
+/* Impact section */
+.impact {
+    background-color: var(--secondary-white);
+    padding: 3rem 0rem;
+    display: flex;
+    align-items: center;
+}
+
+.impact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.impact-title{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.impact-title-tag {
+    color: var(--gold);
+    font-weight: 700;
+}
+
+.impact-title h1{
+    text-transform: capitalize;
+}
+
+.impact-content_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.impact-content {
+    background-color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.impact-content_title h3 {
+    font-family: var(--font-calistoga);
+    font-weight: 400;
+}
+
+.impact-content_rating {
+    display: flex;
+    gap: 0.5rem;
+    color: var(--gold);
 }
