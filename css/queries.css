@@ -122,6 +122,15 @@
         width: 100%;
     }
 
+    /* Services Section */
+    .services-content_container {
+        gap: 2rem;
+    }
+
+    .services-content {
+        width: 100%;
+    }
+
 }
 
 /* Animation */

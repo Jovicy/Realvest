@@ -60,7 +60,7 @@ img {
     width: 100%;
 }
 
-button {
+.btn {
     background-color: black;
     padding: 12px 24px;
     color: var(--gold);
@@ -71,7 +71,7 @@ button {
     transition: background-color 0.3s ease-in-out;
 }
 
-button:hover {
+.btn:hover {
     background-color: var(--white);
 }
 
@@ -162,6 +162,12 @@ header {
     font-weight: 900;
 }
 
+.header-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .header-paragraph p {
     font-style: 18px;
     line-height: 28px;
@@ -194,6 +200,12 @@ header {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+.about-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .about-paragraph p {
@@ -236,6 +248,7 @@ header {
 .impact-content_container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .impact-content {
@@ -261,4 +274,73 @@ header {
     display: flex;
     gap: 0.5rem;
     color: var(--gold);
+}
+
+/* Services */
+.services {
+    padding: 5rem 0rem;
+    display: flex;
+    align-items: center;
+}
+
+.services-title {
+    font-weight: 300;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.services-content_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services-content {
+    background-color: var(--footer-background);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 25%;
+    color: white;
+}
+
+.services-content_image {
+    height: 50%;
+}
+
+.services-briefing {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px;
+}
+
+.services-briefing h3 {
+    font-family: var(--font-calistoga);
+    font-weight: 400;
+}
+
+.services-briefing p {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.services-btn_cont {
+    padding-bottom: 10px;
+}
+
+.services-btn {
+    background-color: var(--white);
+    padding: 12px 24px;
+    color: var(--black);
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
 }
