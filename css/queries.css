@@ -131,6 +131,23 @@
         width: 100%;
     }
 
+    /* Footer */
+    .footer-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-category {
+        width: 100%;
+    }
+
+    .footer-form {
+        width: 100%;
+    }
+
+    .footer-btn {
+        width: 100%;
+    }
 }
 
 /* Animation */
