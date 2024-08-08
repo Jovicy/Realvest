@@ -14,3 +14,17 @@ window.addEventListener('resize', () => {
     navLinksContainer.classList.remove('show');
   }
 });
+
+const images = [
+  '../img/header-1.jpg',
+  '../img/header-2.jpg',
+  '../img/header-3.jpg'
+];
+let currentIndex = 0;
+
+function changeBackgroundImage() {
+  currentIndex = (currentIndex + 1) % images.length;
+  document.querySelector('header').style.backgroundImage = `url(${images[currentIndex]})`;
+}
+
+setInterval(changeBackgroundImage, 5000); // Change image every 5 seconds
