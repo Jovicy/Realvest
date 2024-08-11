@@ -131,6 +131,33 @@
         width: 100%;
     }
 
+    /* Contact Section */
+    .contact-info_container {
+        flex-direction: column;
+    }
+
+    .contact-content_container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .contact-briefing_container {
+        width: 100%;
+    }
+
+    .contact-form_container {
+        width: 100%;
+    }
+
+    .contact-form_inputs-extra {
+        flex-direction: column;
+        justify-content: none;
+    }
+
+    .contact-form_inputs-extra input {
+        width: 100%;
+    }
+
     /* Footer */
     .footer-container {
         flex-direction: column;
