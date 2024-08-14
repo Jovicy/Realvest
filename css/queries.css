@@ -9,7 +9,7 @@
     }
 
     .nav-logo {
-        width: 20%;
+        width: 24%;
     }
 
     .nav-toggle {
@@ -19,7 +19,7 @@
         right: 1.5rem;
         font-size: 2rem;
         background: transparent;
-        color: var(--gold);
+        color: var(--black);
         border: none;
         cursor: pointer;
     }

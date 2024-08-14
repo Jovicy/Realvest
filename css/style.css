@@ -180,7 +180,10 @@ header {
 }
 
 .header-content {
-    background: rgba(238, 185, 43, 0.9);
+    /* background: rgba(238, 185, 43, 0.9); */
+    background: rgba(255, 255, 255, 0.9);
+    /* background: rgba(0, 0, 0, 0.9); */
+    /* color: white; */
     width: 75%;
     padding: 40px;
     border-radius: 10px;
@@ -445,7 +448,7 @@ header {
 
 .contact-briefing_container {
     width: 50%;
-    background-color: var(--footer-background);
+    background-color: var(--gold);
     color: var(--white);
     border-radius: 10px;
     padding: 20px;
