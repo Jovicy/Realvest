@@ -131,6 +131,10 @@
         width: 100%;
     }
 
+    .services-content_image {
+        height: 100%;
+    }
+
     /* Contact Section */
     .contact-info_container {
         flex-direction: column;
