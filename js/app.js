@@ -28,3 +28,22 @@ function changeBackgroundImage() {
 }
 
 setInterval(changeBackgroundImage, 5000); // Change image every 5 seconds
+
+
+// Back to Top Button
+const backToTopButton = document.getElementById('backToTop');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        backToTopButton.classList.add('show-back-to-top');
+    } else {
+        backToTopButton.classList.remove('show-back-to-top');
+    }
+});
+
+backToTopButton.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
