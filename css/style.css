@@ -130,8 +130,13 @@ img {
 
 .nav-logo {
     width: 8%;
+    border-radius: 100px;
     display: flex;
     align-items: center;
+}
+
+.nav-logo img {
+    border-radius: 100%;
 }
 
 .nav-links_container {
@@ -180,10 +185,7 @@ header {
 }
 
 .header-content {
-    /* background: rgba(238, 185, 43, 0.9); */
-    background: rgba(255, 255, 255, 0.9);
-    /* background: rgba(0, 0, 0, 0.9); */
-    /* color: white; */
+    background: rgba(238, 185, 43, 0.9);
     width: 75%;
     padding: 40px;
     border-radius: 10px;
