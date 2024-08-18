@@ -339,6 +339,11 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 .services-content {

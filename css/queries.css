@@ -135,6 +135,10 @@
         height: 100%;
     }
 
+    .hidden {
+        display: none;
+    }
+
     /* Contact Section */
     .contact-info_container {
         flex-direction: column;
