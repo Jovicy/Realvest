@@ -12,6 +12,10 @@
         width: 60%;
     }
 
+    .first-logo {
+        width: 25%;
+    }
+
     .nav-toggle {
         display: block;
         position: absolute;
